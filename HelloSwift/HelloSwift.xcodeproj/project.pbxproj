@@ -7,17 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD06E7341F15F462007B76B1 /* Url_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7331F15F462007B76B1 /* Url_macro.swift */; };
+		CD06E7361F15F636007B76B1 /* Notify_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7351F15F636007B76B1 /* Notify_macro.swift */; };
+		CD06E7381F15F6B0007B76B1 /* Db_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7371F15F6B0007B76B1 /* Db_macro.swift */; };
+		CD06E73A1F15FD8A007B76B1 /* UZaoProject_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7391F15FD8A007B76B1 /* UZaoProject_macro.swift */; };
+		CD06E73C1F160085007B76B1 /* UZString_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E73B1F160085007B76B1 /* UZString_macro.swift */; };
+		CD06E73E1F161311007B76B1 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E73D1F161311007B76B1 /* HttpClient.swift */; };
+		CD06E7401F16135F007B76B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD06E73F1F16135F007B76B1 /* Alamofire.framework */; };
 		CDE2A37C1F135E9900C23DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */; };
 		CDE2A37E1F135E9900C23DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A37D1F135E9900C23DBF /* ViewController.swift */; };
 		CDE2A3811F135E9900C23DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2A37F1F135E9900C23DBF /* Main.storyboard */; };
 		CDE2A3831F135E9900C23DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2A3821F135E9900C23DBF /* Assets.xcassets */; };
 		CDE2A3861F135E9900C23DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2A3841F135E9900C23DBF /* LaunchScreen.storyboard */; };
+		CDE2A3981F13762700C23DBF /* UZCommon_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A3971F13762700C23DBF /* UZCommon_macro.swift */; };
 		FB2DB7FEB0679B3C0313C0DB /* Pods_HelloSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1098C38016A68A4E7E340001 /* Pods_HelloSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1098C38016A68A4E7E340001 /* Pods_HelloSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9FDE0E79B19ED31746BDFE /* Pods-HelloSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CD06E7331F15F462007B76B1 /* Url_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url_macro.swift; sourceTree = "<group>"; };
+		CD06E7351F15F636007B76B1 /* Notify_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify_macro.swift; sourceTree = "<group>"; };
+		CD06E7371F15F6B0007B76B1 /* Db_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Db_macro.swift; sourceTree = "<group>"; };
+		CD06E7391F15FD8A007B76B1 /* UZaoProject_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZaoProject_macro.swift; sourceTree = "<group>"; };
+		CD06E73B1F160085007B76B1 /* UZString_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZString_macro.swift; sourceTree = "<group>"; };
+		CD06E73D1F161311007B76B1 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		CD06E73F1F16135F007B76B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloSwift-frdajbcucrlpqvgykvecgglxesml/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		CDE2A3781F135E9900C23DBF /* HelloSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE2A37D1F135E9900C23DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +40,7 @@
 		CDE2A3821F135E9900C23DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE2A3851F135E9900C23DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE2A3871F135E9900C23DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE2A3971F13762700C23DBF /* UZCommon_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZCommon_macro.swift; sourceTree = "<group>"; };
 		EFB67ABB03EC3D79691E453F /* Pods-HelloSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD06E7401F16135F007B76B1 /* Alamofire.framework in Frameworks */,
 				FB2DB7FEB0679B3C0313C0DB /* Pods_HelloSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +87,8 @@
 		CDE2A37A1F135E9900C23DBF /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CDE2A3931F1374B200C23DBF /* Service */,
+				CDE2A38D1F13717F00C23DBF /* Macro */,
 				CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */,
 				CDE2A37D1F135E9900C23DBF /* ViewController.swift */,
 				CDE2A37F1F135E9900C23DBF /* Main.storyboard */,
@@ -80,9 +99,55 @@
 			path = HelloSwift;
 			sourceTree = "<group>";
 		};
+		CDE2A38D1F13717F00C23DBF /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2A3971F13762700C23DBF /* UZCommon_macro.swift */,
+				CD06E7331F15F462007B76B1 /* Url_macro.swift */,
+				CD06E7351F15F636007B76B1 /* Notify_macro.swift */,
+				CD06E7371F15F6B0007B76B1 /* Db_macro.swift */,
+				CD06E7391F15FD8A007B76B1 /* UZaoProject_macro.swift */,
+				CD06E73B1F160085007B76B1 /* UZString_macro.swift */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		CDE2A3931F1374B200C23DBF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2A3961F1374FD00C23DBF /* Entity */,
+				CDE2A3951F1374C800C23DBF /* Interface */,
+				CDE2A3941F1374BE00C23DBF /* Model */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		CDE2A3941F1374BE00C23DBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD06E73D1F161311007B76B1 /* HttpClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE2A3951F1374C800C23DBF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		CDE2A3961F1374FD00C23DBF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		D7BD1A53678010CA17764E9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD06E73F1F16135F007B76B1 /* Alamofire.framework */,
 				1098C38016A68A4E7E340001 /* Pods_HelloSwift.framework */,
 			);
 			name = Frameworks;
@@ -179,9 +244,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -194,13 +266,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloSwift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -210,7 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD06E73A1F15FD8A007B76B1 /* UZaoProject_macro.swift in Sources */,
+				CDE2A3981F13762700C23DBF /* UZCommon_macro.swift in Sources */,
 				CDE2A37E1F135E9900C23DBF /* ViewController.swift in Sources */,
+				CD06E7381F15F6B0007B76B1 /* Db_macro.swift in Sources */,
+				CD06E73E1F161311007B76B1 /* HttpClient.swift in Sources */,
+				CD06E7341F15F462007B76B1 /* Url_macro.swift in Sources */,
+				CD06E7361F15F636007B76B1 /* Notify_macro.swift in Sources */,
+				CD06E73C1F160085007B76B1 /* UZString_macro.swift in Sources */,
 				CDE2A37C1F135E9900C23DBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +471,7 @@
 				CDE2A38C1F135E9900C23DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
