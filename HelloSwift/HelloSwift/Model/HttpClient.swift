@@ -29,6 +29,10 @@ typealias uploadClosure = (AnyObject?, NSError?,Int64?,Int64?,Int64?)->Void
 
 class HttpClient : NSObject {
     //get
+    func requestGetData(url: String, parameters: AnyObject, isLoginToken: Bool, successed:(_ responseObject: AnyObject?) -> (), failed: (_ error: NSError?) -> ()){
+        Alamofire.request(url, method: .get, parameters: <#T##Parameters?#>, encoding: <#T##ParameterEncoding#>, headers: <#T##HTTPHeaders?#>)
+        
+    }
     //post
     //delete
     //put
