@@ -14,9 +14,16 @@
 		CD06E73C1F160085007B76B1 /* UZString_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E73B1F160085007B76B1 /* UZString_macro.swift */; };
 		CD06E73E1F161311007B76B1 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E73D1F161311007B76B1 /* HttpClient.swift */; };
 		CD06E7401F16135F007B76B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD06E73F1F16135F007B76B1 /* Alamofire.framework */; };
+		CD89B1E0208089920002F1E7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1DF208089920002F1E7 /* MainTabBarController.swift */; };
+		CD89B1E520808E030002F1E7 /* UIColor+hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1E420808E030002F1E7 /* UIColor+hexColor.swift */; };
+		CD89B1E7208099C40002F1E7 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1E6208099C40002F1E7 /* MainTabBar.swift */; };
+		CD89B1E920809B090002F1E7 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1E820809B090002F1E7 /* MainNavigationController.swift */; };
+		CDCAF66C1F18A9CB00A19B6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF66B1F18A9CB00A19B6B /* HomeViewController.swift */; };
+		CDCAF66E1F18A9DE00A19B6B /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF66D1F18A9DE00A19B6B /* MarketViewController.swift */; };
+		CDCAF6721F18AA0600A19B6B /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF6711F18AA0600A19B6B /* CartViewController.swift */; };
+		CDCAF6741F18AA2400A19B6B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF6731F18AA2400A19B6B /* UserViewController.swift */; };
+		CDCAF6771F18AA4100A19B6B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCAF6761F18AA4100A19B6B /* BaseViewController.swift */; };
 		CDE2A37C1F135E9900C23DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */; };
-		CDE2A37E1F135E9900C23DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A37D1F135E9900C23DBF /* ViewController.swift */; };
-		CDE2A3811F135E9900C23DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2A37F1F135E9900C23DBF /* Main.storyboard */; };
 		CDE2A3831F135E9900C23DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE2A3821F135E9900C23DBF /* Assets.xcassets */; };
 		CDE2A3861F135E9900C23DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE2A3841F135E9900C23DBF /* LaunchScreen.storyboard */; };
 		CDE2A3981F13762700C23DBF /* UZCommon_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE2A3971F13762700C23DBF /* UZCommon_macro.swift */; };
@@ -33,10 +40,17 @@
 		CD06E73B1F160085007B76B1 /* UZString_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZString_macro.swift; sourceTree = "<group>"; };
 		CD06E73D1F161311007B76B1 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		CD06E73F1F16135F007B76B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloSwift-frdajbcucrlpqvgykvecgglxesml/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		CD89B1DF208089920002F1E7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		CD89B1E420808E030002F1E7 /* UIColor+hexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hexColor.swift"; sourceTree = "<group>"; };
+		CD89B1E6208099C40002F1E7 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		CD89B1E820809B090002F1E7 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		CDCAF66B1F18A9CB00A19B6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CDCAF66D1F18A9DE00A19B6B /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		CDCAF6711F18AA0600A19B6B /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CDCAF6731F18AA2400A19B6B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CDCAF6761F18AA4100A19B6B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CDE2A3781F135E9900C23DBF /* HelloSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDE2A37D1F135E9900C23DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDE2A3801F135E9900C23DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDE2A3821F135E9900C23DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE2A3851F135E9900C23DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE2A3871F135E9900C23DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +80,69 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CD89B1E120808BFE0002F1E7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CD89B1E420808E030002F1E7 /* UIColor+hexColor.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CDCAF6661F18A88600A19B6B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CDCAF6751F18AA2B00A19B6B /* Base */,
+				CDCAF66A1F18A98900A19B6B /* Settings */,
+				CDCAF6691F18A97600A19B6B /* Order */,
+				CDCAF6681F18A95E00A19B6B /* LoginAndRegister */,
+				CDCAF6671F18A93D00A19B6B /* Main */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		CDCAF6671F18A93D00A19B6B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CDCAF66B1F18A9CB00A19B6B /* HomeViewController.swift */,
+				CDCAF66D1F18A9DE00A19B6B /* MarketViewController.swift */,
+				CDCAF6711F18AA0600A19B6B /* CartViewController.swift */,
+				CDCAF6731F18AA2400A19B6B /* UserViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CDCAF6681F18A95E00A19B6B /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		CDCAF6691F18A97600A19B6B /* Order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		CDCAF66A1F18A98900A19B6B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CDCAF6751F18AA2B00A19B6B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CDCAF6761F18AA4100A19B6B /* BaseViewController.swift */,
+				CD89B1DF208089920002F1E7 /* MainTabBarController.swift */,
+				CD89B1E6208099C40002F1E7 /* MainTabBar.swift */,
+				CD89B1E820809B090002F1E7 /* MainNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		CDE2A36F1F135E9900C23DBF = {
 			isa = PBXGroup;
 			children = (
@@ -87,11 +164,11 @@
 		CDE2A37A1F135E9900C23DBF /* HelloSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */,
+				CDCAF6661F18A88600A19B6B /* Modules */,
+				CD89B1E120808BFE0002F1E7 /* Category */,
 				CDE2A3931F1374B200C23DBF /* Service */,
 				CDE2A38D1F13717F00C23DBF /* Macro */,
-				CDE2A37B1F135E9900C23DBF /* AppDelegate.swift */,
-				CDE2A37D1F135E9900C23DBF /* ViewController.swift */,
-				CDE2A37F1F135E9900C23DBF /* Main.storyboard */,
 				CDE2A3821F135E9900C23DBF /* Assets.xcassets */,
 				CDE2A3841F135E9900C23DBF /* LaunchScreen.storyboard */,
 				CDE2A3871F135E9900C23DBF /* Info.plist */,
@@ -216,7 +293,6 @@
 			files = (
 				CDE2A3861F135E9900C23DBF /* LaunchScreen.storyboard in Resources */,
 				CDE2A3831F135E9900C23DBF /* Assets.xcassets in Resources */,
-				CDE2A3811F135E9900C23DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +322,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -285,29 +357,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD89B1E7208099C40002F1E7 /* MainTabBar.swift in Sources */,
 				CD06E73A1F15FD8A007B76B1 /* UZaoProject_macro.swift in Sources */,
 				CDE2A3981F13762700C23DBF /* UZCommon_macro.swift in Sources */,
-				CDE2A37E1F135E9900C23DBF /* ViewController.swift in Sources */,
+				CD89B1E520808E030002F1E7 /* UIColor+hexColor.swift in Sources */,
 				CD06E7381F15F6B0007B76B1 /* Db_macro.swift in Sources */,
+				CDCAF6771F18AA4100A19B6B /* BaseViewController.swift in Sources */,
 				CD06E73E1F161311007B76B1 /* HttpClient.swift in Sources */,
+				CD89B1E920809B090002F1E7 /* MainNavigationController.swift in Sources */,
+				CDCAF6721F18AA0600A19B6B /* CartViewController.swift in Sources */,
+				CDCAF6741F18AA2400A19B6B /* UserViewController.swift in Sources */,
+				CDCAF66C1F18A9CB00A19B6B /* HomeViewController.swift in Sources */,
 				CD06E7341F15F462007B76B1 /* Url_macro.swift in Sources */,
+				CDCAF66E1F18A9DE00A19B6B /* MarketViewController.swift in Sources */,
 				CD06E7361F15F636007B76B1 /* Notify_macro.swift in Sources */,
 				CD06E73C1F160085007B76B1 /* UZString_macro.swift in Sources */,
 				CDE2A37C1F135E9900C23DBF /* AppDelegate.swift in Sources */,
+				CD89B1E0208089920002F1E7 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDE2A37F1F135E9900C23DBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDE2A3801F135E9900C23DBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDE2A3841F135E9900C23DBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
