@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import XCGLogger
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,8 +23,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         rootViewController.delegate = self
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible();
+        
+        //打开XCGLogger
+        let log = XCGLogger.default
+        log.setup(level: .debug, showThreadName: true, showLevel: true, showFileNames: true, showLineNumbers: true, writeToFile: "path/to/file", fileLevel: .debug)
+
+        
         return true
     }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -49,7 +58,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate: UITabBarControllerDelegate{
-    
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         print("\(viewController)")
     }

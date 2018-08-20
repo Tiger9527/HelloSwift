@@ -20,22 +20,22 @@ public let kUrlImageBase : String = "http://192.168.2.114"
 //public let kUrlBase : String = "http://192.168.2.120"
 //public let kUrlImageBase : String = "http://192.168.2.120"
 //图片文件夹
-public let KUrlImageUser : String = kUrlImageBase + "/avatar/"
-public let KImageProduct : String = kUrlImageBase + "/product/"
-public let KUrlImageAfterSale : String = kUrlImageBase + "/aftersale/"
+public let KUrlImageUser : String = "/avatar/"
+public let KImageProduct : String = "/product/"
+public let KUrlImageAfterSale : String = "/aftersale/"
 
 //中间字段
-public let freeapis_web_systemctl : String = kUrlBase + "/freeapis-web-systemctl/1"
-public let freeapis_web_security : String = kUrlBase + "/freeapis-web-security/1"
-public let freeapis_web_agency : String = kUrlBase + "/freeapis-web-agency/1"
-public let freeapis_web_publicuser : String = kUrlBase + "/freeapis-web-publicuser/1"
-public let freeapis_web_asi : String = kUrlBase + "/freeapis-web-asi/1"
-public let freeapis_web_cms : String = kUrlBase + "/freeapis-web-cms/1"
-public let freeapis_web_product : String = kUrlBase + "/freeapis-web-product/1"
-public let storage_server : String = kUrlBase + "/freeapis-web-storage/1"
-public let freeapis_web_business : String = kUrlBase + "/freeapis-web-business/1"
-public let freeapis_web_trade : String = kUrlBase + "/freeapis-web-trade/1"
-public let freeapis_web_notification : String = kUrlBase + "/freeapis-web-notification/1"
+public let freeapis_web_systemctl : String = "/freeapis-web-systemctl/1"
+public let freeapis_web_security : String = "/freeapis-web-security/1"
+public let freeapis_web_agency : String = "/freeapis-web-agency/1"
+public let freeapis_web_publicuser : String = "/freeapis-web-publicuser/1"
+public let freeapis_web_asi : String = "/freeapis-web-asi/1"
+public let freeapis_web_cms : String = "/freeapis-web-cms/1"
+public let freeapis_web_product : String = "/freeapis-web-product/1"
+public let storage_server : String = "/freeapis-web-storage/1"
+public let freeapis_web_business : String = "/freeapis-web-business/1"
+public let freeapis_web_trade : String = "/freeapis-web-trade/1"
+public let freeapis_web_notification : String = "/freeapis-web-notification/1"
 
 //-------------------收货地址------------------
 //创建收货地址
@@ -57,8 +57,11 @@ public let kUrlAddressCity : String = freeapis_web_publicuser + "/location/"
 public let kUrlUserNickToken : String = freeapis_web_security + "/authentication/anonymous"
 //获取手机验证码
 public let kUrlUserVerificationCode : String = freeapis_web_security + "/sms/verifyingcode/AUTH/"
-//登录
+//手机验证码登录
 public let kUrlUserLogin : String = freeapis_web_security + "/authentication/public/smscode/mobile"
+//密码登录
+public let kUrlUserPSWLogin : String = freeapis_web_security + "/authentication/public/userNamePassword/mobile"
+
 //获取用户信息
 public let kUrlUserInfo : String = freeapis_web_publicuser + "/publicuser/mobile/me"
 //修改用户信息
@@ -97,7 +100,8 @@ public let kUrlCategory : String = freeapis_web_product + "/categories//treeview
 public let kUrlProductList : String = freeapis_web_product + "/designSpu/portal/page?categoryCode="
 //商品详情
 public let kUrlProductDetail : String = freeapis_web_product + "/designSpu/partial/"
-
+//导航sync
+public let kUrlHomeNavigationSync : String = freeapis_web_product + "/navigate/enable/treeview/sync/app"
 //-------------------搜索-----------------------
 //搜索商品
 public let kUrlSearchProduct : String = freeapis_web_product + "/designSpu/portal/page?spuName="

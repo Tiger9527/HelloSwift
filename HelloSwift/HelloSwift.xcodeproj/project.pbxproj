@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD03A50F20C13A3D004BE7D5 /* YZAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03A50E20C13A3D004BE7D5 /* YZAPI.swift */; };
 		CD06E7341F15F462007B76B1 /* Url_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7331F15F462007B76B1 /* Url_macro.swift */; };
 		CD06E7361F15F636007B76B1 /* Notify_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7351F15F636007B76B1 /* Notify_macro.swift */; };
 		CD06E7381F15F6B0007B76B1 /* Db_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7371F15F6B0007B76B1 /* Db_macro.swift */; };
 		CD06E73A1F15FD8A007B76B1 /* UZaoProject_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E7391F15FD8A007B76B1 /* UZaoProject_macro.swift */; };
 		CD06E73C1F160085007B76B1 /* UZString_macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E73B1F160085007B76B1 /* UZString_macro.swift */; };
-		CD06E73E1F161311007B76B1 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06E73D1F161311007B76B1 /* HttpClient.swift */; };
 		CD06E7401F16135F007B76B1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD06E73F1F16135F007B76B1 /* Alamofire.framework */; };
+		CD84C7E521241C7D00695B0A /* YZEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD84C7E421241C7D00695B0A /* YZEntity.swift */; };
 		CD89B1E0208089920002F1E7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1DF208089920002F1E7 /* MainTabBarController.swift */; };
 		CD89B1E520808E030002F1E7 /* UIColor+hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1E420808E030002F1E7 /* UIColor+hexColor.swift */; };
 		CD89B1E7208099C40002F1E7 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD89B1E6208099C40002F1E7 /* MainTabBar.swift */; };
@@ -33,13 +34,14 @@
 /* Begin PBXFileReference section */
 		1098C38016A68A4E7E340001 /* Pods_HelloSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9FDE0E79B19ED31746BDFE /* Pods-HelloSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CD03A50E20C13A3D004BE7D5 /* YZAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZAPI.swift; sourceTree = "<group>"; };
 		CD06E7331F15F462007B76B1 /* Url_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url_macro.swift; sourceTree = "<group>"; };
 		CD06E7351F15F636007B76B1 /* Notify_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify_macro.swift; sourceTree = "<group>"; };
 		CD06E7371F15F6B0007B76B1 /* Db_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Db_macro.swift; sourceTree = "<group>"; };
 		CD06E7391F15FD8A007B76B1 /* UZaoProject_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZaoProject_macro.swift; sourceTree = "<group>"; };
 		CD06E73B1F160085007B76B1 /* UZString_macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZString_macro.swift; sourceTree = "<group>"; };
-		CD06E73D1F161311007B76B1 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		CD06E73F1F16135F007B76B1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloSwift-frdajbcucrlpqvgykvecgglxesml/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		CD84C7E421241C7D00695B0A /* YZEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZEntity.swift; sourceTree = "<group>"; };
 		CD89B1DF208089920002F1E7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		CD89B1E420808E030002F1E7 /* UIColor+hexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hexColor.swift"; sourceTree = "<group>"; };
 		CD89B1E6208099C40002F1E7 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
@@ -192,33 +194,10 @@
 		CDE2A3931F1374B200C23DBF /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				CDE2A3961F1374FD00C23DBF /* Entity */,
-				CDE2A3951F1374C800C23DBF /* Interface */,
-				CDE2A3941F1374BE00C23DBF /* Model */,
+				CD03A50E20C13A3D004BE7D5 /* YZAPI.swift */,
+				CD84C7E421241C7D00695B0A /* YZEntity.swift */,
 			);
 			name = Service;
-			sourceTree = "<group>";
-		};
-		CDE2A3941F1374BE00C23DBF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CD06E73D1F161311007B76B1 /* HttpClient.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CDE2A3951F1374C800C23DBF /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interface;
-			sourceTree = "<group>";
-		};
-		CDE2A3961F1374FD00C23DBF /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
 			sourceTree = "<group>";
 		};
 		D7BD1A53678010CA17764E9E /* Frameworks */ = {
@@ -242,7 +221,6 @@
 				CDE2A3751F135E9900C23DBF /* Frameworks */,
 				CDE2A3761F135E9900C23DBF /* Resources */,
 				9CC2D3785AB3112B16C147B0 /* [CP] Embed Pods Frameworks */,
-				1DEDC402791838ED5250B089 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,21 +277,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DEDC402791838ED5250B089 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9CC2D3785AB3112B16C147B0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,10 +285,38 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloSwift/Pods-HelloSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeMenuViewController/SwipeMenuViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeMenuViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,9 +354,10 @@
 				CD89B1E520808E030002F1E7 /* UIColor+hexColor.swift in Sources */,
 				CD06E7381F15F6B0007B76B1 /* Db_macro.swift in Sources */,
 				CDCAF6771F18AA4100A19B6B /* BaseViewController.swift in Sources */,
-				CD06E73E1F161311007B76B1 /* HttpClient.swift in Sources */,
+				CD84C7E521241C7D00695B0A /* YZEntity.swift in Sources */,
 				CD89B1E920809B090002F1E7 /* MainNavigationController.swift in Sources */,
 				CDCAF6721F18AA0600A19B6B /* CartViewController.swift in Sources */,
+				CD03A50F20C13A3D004BE7D5 /* YZAPI.swift in Sources */,
 				CDCAF6741F18AA2400A19B6B /* UserViewController.swift in Sources */,
 				CDCAF66C1F18A9CB00A19B6B /* HomeViewController.swift in Sources */,
 				CD06E7341F15F462007B76B1 /* Url_macro.swift in Sources */,

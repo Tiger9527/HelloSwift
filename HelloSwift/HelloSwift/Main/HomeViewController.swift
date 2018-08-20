@@ -9,27 +9,18 @@
 import UIKit
 
 class HomeViewController: BaseViewController {
-
+    private var userEntity : UserEntity?
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        ApiLoadingProvider.request(YZAPI.getNickToken, model: UserEntity.self) { (returnData) in
+
+        }
+//        ApiLoadingProvider.request(YZAPI.login(userName: "15829763241", pwd: "a123456"), model: UserEntity.self) { [weak self] (returnData) in
+//
+//        }
+//        ApiLoadingProvider.request(YZAPI.getNavCategory, model: UserEntity.self) { [weak self] (returnData) in
+//
+//        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

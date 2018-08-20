@@ -1,7 +1,22 @@
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
 use_frameworks!
 inhibit_all_warnings!
 
 target 'HelloSwift' do
     pod 'Alamofire'
+    pod 'Moya'
+    pod 'HandyJSON'
+    pod 'SwiftyJSON'
+    pod 'SVProgressHUD'
+    pod 'SwiftMessages'
+    pod 'SnapKit'
+    pod 'Kingfisher'
+    pod 'YYKit'
+    # 分页
+    pod 'SwipeMenuViewController'
+    pod 'MJRefresh'
+    pod 'SkeletonView'
+    # log
+    pod 'XCGLogger'
 end
